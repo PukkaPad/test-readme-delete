@@ -17,7 +17,7 @@
     pip install pyobjc
     ```
 
-If running on a windows machine:
+    If running on a windows machine:
 
     ```
     pip install screeninfo
