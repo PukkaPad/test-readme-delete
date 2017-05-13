@@ -1,5 +1,5 @@
 ## Installation
-    - Exercise 14::
+    - I'm going to include a fenced code block as part of this bullet:
 
         ```
         Code
