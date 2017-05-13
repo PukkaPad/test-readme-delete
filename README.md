@@ -1,7 +1,8 @@
 ## Installation
-    1. Exercise 14: 
-    
-        ```
-        pip install more_itertools
-        ```
+1. This is a numbered list.
+2. I'm going to include a fenced code block as part of this bullet:
 
+    ```
+    Code
+    More Code
+    ```
