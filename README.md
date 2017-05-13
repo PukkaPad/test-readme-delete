@@ -1,15 +1,15 @@
 ## Installation
     - Exercise 14: 
     
-        ```
-        pip install more_itertools
-        ```
+            ```
+            pip install more_itertools
+            ```
     
     - Exercise 82: 
     
-        ```
-        pip install pyephem
-        ```
+            ```
+            pip install pyephem
+            ```
     
     - Exercise 83: 
     
