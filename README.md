@@ -49,10 +49,10 @@ Tutorial to start learning Flask web framework.
 
 - [Microblog](https://github.com/PukkaPad/flask-mega-tutorial/tree/master/microblog)
     - Flask 
-    - app(#app) 
+    - [app](#app) 
         - static
-        - templates(#templates)
-    - tmp(#tmp)
+        - [templates](#templates)
+    - [tmp](#tmp)
 
 ## Flask
 I have a complete `python3` environment inside this folder. I also have the Flask framework and extensions that will be used for the application.
