@@ -1,37 +1,67 @@
+# The Flask Mega Tutorial
+Tutorial to start learning Flask web framework.
+
+[by Miguel Grinberg]()
+
+
 ## Installation
-- Exercise 14: 
+- cd microblog
 
     ```
-    pip install more_itertools
+    python3 -m venv flask
+    flask/bin/pip install flask
+    flask/bin/pip install flask-login
+    flask/bin/pip install flask-openid
+    flask/bin/pip install flask-mail
+    flask/bin/pip install flask-sqlalchemy
+    flask/bin/pip install sqlalchemy-migrate
+    flask/bin/pip install flask-whooshalchemy
+    flask/bin/pip install flask-wtf
+    flask/bin/pip install flask-babel
+    flask/bin/pip install guess_language
+    flask/bin/pip install flipflop
+    flask/bin/pip install coverage
     ```
 
-- Exercise 82: 
+
+## Usage
+- To start the app:
 
     ```
-    pip install pyephem
+    chmod a+x run.py
     ```
 
-- Exercise 83: 
+- To execute the script:
 
     ```
-    pip install pyobjc
+    ./run.py
     ```
 
-    If running on a windows machine:
-
+- URL to open on web browser
+    
     ```
-    pip install screeninfo
-    ```
-
-- Exercise 84:
-
-    ```
-    pip install pyglet
+    http://localhost:5000/index
     ```
 
-- Exercise 93:
-
-    ```
-    pip install glob2
-    ```
 ---
+
+## Table of Contents
+
+- [Microblog](https://github.com/PukkaPad/flask-mega-tutorial/tree/master/microblog)
+    - Flask 
+    - app(#app) 
+        - static
+        - templates(#templates)
+    - tmp(#tmp)
+
+## Flask
+I have a complete `python3` environment inside this folder. I also have the Flask framework and extensions that will be used for the application.
+
+## app
+Where the application package is.
+
+### static
+For storing static files (images, javascripts)
+
+### templates
+For templates
