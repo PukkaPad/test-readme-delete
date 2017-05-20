@@ -1,67 +1,37 @@
-# The Flask Mega Tutorial
-Tutorial to start learning Flask web framework.
+# Binary search algorithm.
+This technique relies on "divide and conquer" strategy.
+This script will request user input.
 
-[by Miguel Grinberg]()
+## Example:
 
+```
+$ python binary_search.py
 
-## Installation
-- cd microblog
+Enter target number: 9
 
-    ```
-    python3 -m venv flask
-    flask/bin/pip install flask
-    flask/bin/pip install flask-login
-    flask/bin/pip install flask-openid
-    flask/bin/pip install flask-mail
-    flask/bin/pip install flask-sqlalchemy
-    flask/bin/pip install sqlalchemy-migrate
-    flask/bin/pip install flask-whooshalchemy
-    flask/bin/pip install flask-wtf
-    flask/bin/pip install flask-babel
-    flask/bin/pip install guess_language
-    flask/bin/pip install flipflop
-    flask/bin/pip install coverage
-    ```
+Choose array (odd, even, prime or normal):prime
 
+Enter max number: 20
 
-## Usage
-- To start the app:
+Chosen target not in array. :(
+```
 
-    ```
-    chmod a+x run.py
-    ```
+```
+$ python binary_search.py
 
-- To execute the script:
+Enter target number: 14
 
-    ```
-    ./run.py
-    ```
+Choose array (odd, even, prime or normal):even
 
-- URL to open on web browser
-    
-    ```
-    http://localhost:5000/index
-    ```
+Enter max number: 50
 
----
+Guess:  24
 
-## Table of Contents
+Guess:  12
 
-- [Microblog](https://github.com/PukkaPad/flask-mega-tutorial/tree/master/microblog)
-    - Flask 
-    - [app](#app) 
-        - static
-        - [templates](#templates)
-    - [tmp](#tmp)
+Guess:  18
 
-## Flask
-I have a complete `python3` environment inside this folder. I also have the Flask framework and extensions that will be used for the application.
+Guess:  14
 
-## app
-Where the application package is.
-
-### static
-For storing static files (images, javascripts)
-
-### templates
-For templates
+Found it! :D
+```
